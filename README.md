@@ -88,10 +88,10 @@ In the project directory, you can run:
 
 ## Learn More
 
-- Next.js Documentation
-- Tanstack Query Documentation
-- Tailwind CSS Documentation
-- JSONPlaceholder API
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tanstack Query Documentation](https://tanstack.com/query/latest)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
 ## Contributing
 
