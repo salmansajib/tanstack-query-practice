@@ -48,7 +48,7 @@ Follow these steps to set up and run the project locally:
    yarn dev
    ```
 
-   Open http://localhost:3000 in your browser to view the application.
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ## Project Structure
 
