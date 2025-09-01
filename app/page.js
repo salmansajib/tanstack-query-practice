@@ -2,9 +2,10 @@
 
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { fetchPosts } from "@/lib/fetchPosts";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
-  const postsPerPage = 10;
+  const postsPerPage = 15;
 
   const {
     data,
@@ -43,7 +44,7 @@ export default function Home() {
 
   return (
     <div className="font-sans grid place-content-center min-h-screen p-8 pb-20 sm:p-20">
-      <h1 className="text-6xl font-bold py-10">Tanstack Query</h1>
+      <h1 className="text-6xl font-bold pb-15 text-center">Tanstack Query</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5">
         {data?.pages.flat().map((post) => (
@@ -70,6 +71,8 @@ export default function Home() {
             : "No More Posts"}
         </button>
       </div>
+
+      <BackToTop />
     </div>
   );
 }
